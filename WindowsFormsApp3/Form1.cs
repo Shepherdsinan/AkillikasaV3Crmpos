@@ -37,7 +37,7 @@ namespace WindowsFormsApp3
             string tarih = dateEdit1.DateTime.ToString("yyyy.MM.dd");
             string tarih2 = dateEdit2.DateTime.ToString("yyyy.MM.dd");
 
-		
+		//Connection open
 			baglan.Close();
 			baglan.Open();
 			string kayit = string.Concat(new string[]
